@@ -1,58 +1,62 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { Mic2, Heart, ArrowRight, Globe, Zap } from "lucide-react";
+import Image from "next/image";
+import { Mic2, ArrowRight, MapPin } from "lucide-react";
+import { hosts } from "@/lib/data";
 import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = {
   title: "About | Six Rounds Deep",
-  description: "Six friends. Four time zones. Two hemispheres. One fantasy obsession. Learn about Six Rounds Deep - where your group chat got a microphone.",
+  description: "Six friends. Four time zones. Two hemispheres. Zero chill. Learn about Six Rounds Deep - the fantasy football podcast that sounds exactly like your league group chat.",
 };
 
 export default function AboutPage() {
-  const milestones = [
+  const hostHighlights = [
     {
-      year: "2022",
-      title: "The Group Chat Era",
-      description: "Six friends scattered across the globe started arguing about fantasy football. The takes were too hot to keep private.",
+      name: "Brady",
+      nickname: "The Conspiracy",
+      location: "Italy",
+      description: "Every league needs someone who thinks the NFL is a scripted entertainment product run by shadow executives. Brady is that guy. He's also an incredible cook, a goat enthusiast, and the reason our group chat has a \"no links after midnight\" rule that nobody enforces. If your star player got hurt in a suspicious spot, Brady saw it coming. He always sees it coming.",
     },
     {
-      year: "2023",
-      title: "First Episode",
-      description: "We hit record for the first time. Brady was already convinced the NFL was rigged. Steve was already mad.",
+      name: "Jared",
+      nickname: "Fantasy Bro",
+      location: "Las Vegas, Nevada",
+      description: "Jared is the guy who actually makes this podcast happen. He schedules the recordings, keeps us organized, and genuinely believes in expert consensus rankings with his whole heart. Says things like \"smash spot\" and \"league winner\" without a trace of irony. Lives in Vegas, can't gamble. Finished 2nd in a major FFPC championship with his co-owner Houdini, and will absolutely tell the story like he did it solo.",
     },
     {
-      year: "2023",
-      title: "FFPC Runner-Up",
-      description: "Jared and Curt finished 2nd in the FFPC Championship. They still argue about who carried the team.",
+      name: "Gabe",
+      nickname: "The Accountant",
+      location: "Carlsbad, California",
+      description: "If there's a stat, Gabe knows it. If there's a trend, Gabe charted it. Target share, air yards, snap count percentages—he's got spreadsheets for everything and opinions backed by numbers you've never heard of. Originally from New York, now living that California life while methodically grinding toward gambling's promised land. He and Brady agree on almost nothing, which is great for content.",
     },
     {
-      year: "2024",
-      title: "Season 3",
-      description: "Now broadcasting from Italy to Hawaii, we're bigger, bolder, and still delivering the takes you need.",
+      name: "Rod",
+      nickname: "Riverboat",
+      location: "Honolulu, Hawaii",
+      description: "Rod doesn't play fantasy football. Rod *gambles* fantasy football. Every lineup is a high-wire act. Every trade is a blockbuster. He'll bench your WR1 for a \"feeling\" and start a backup because \"this is his week.\" His scores look like an EKG readout—violent spikes, terrifying drops, never boring. Somehow makes the playoffs more often than he should.",
+    },
+    {
+      name: "Steve",
+      nickname: "Floor Pizza",
+      location: "Texas (via Seattle)",
+      description: "A Seahawks loyalist stranded in Cowboys territory, Steve brings the intensity every episode needs. Father of four girls. Consumer of floor pizza (long story, Vegas was involved, no regrets). When things go wrong—and in fantasy, things always go wrong—Steve lets you know about it. His emotional investment in every game is either inspiring or concerning. We haven't decided.",
+    },
+    {
+      name: "Curt",
+      nickname: "Houdini",
+      location: "Honolulu, Hawaii",
+      description: "You know that guy in your league who should lose but never does? The one who pulls off trades that look terrible and then somehow wins? That's Curt. Down 40 going into Monday night? He wins by 3. Makes a move everyone laughs at? Three weeks later he's laughing. He also has a talent for disappearing when league dues are owed or when it's time to hang out. Hence the name.",
     },
   ];
 
-  const values = [
-    {
-      icon: Mic2,
-      title: "Unfiltered Takes",
-      description: "Brady thinks the NFL is rigged. Rod will start your backup's backup. Steve ate floor pizza. We don't hold back.",
-    },
-    {
-      icon: Globe,
-      title: "Global Perspective",
-      description: "From Italy to Hawaii, we cover every time zone and bring perspectives you won't find anywhere else.",
-    },
-    {
-      icon: Zap,
-      title: "Chaos Energy",
-      description: "Safe floors are for cowards. We're here for the boom-or-bust plays and the Monday Night miracles.",
-    },
-    {
-      icon: Heart,
-      title: "Friend Group Vibes",
-      description: "We're not analysts in suits. We're six friends who take fantasy way too seriously and wouldn't have it any other way.",
-    },
+  const topics = [
+    "Start/sit decisions we'll regret by Sunday night",
+    "Trades that make no sense until they do (or don't)",
+    "Whether the NFL is actually rigged (Brady has thoughts)",
+    "Waiver wire desperation moves",
+    "The emotional trauma of fantasy sports",
+    "Whatever chaos happened in our leagues that week",
   ];
 
   return (
@@ -63,107 +67,135 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             About <span className="text-primary">Six Rounds Deep</span>
           </h1>
-          <p className="text-xl text-muted max-w-2xl mx-auto">
-            Six friends. Four time zones. Two hemispheres. One fantasy obsession.
-            It&apos;s like your group chat got a microphone.
+          <p className="text-2xl md:text-3xl font-bold text-secondary mb-6">
+            Six Friends. Four Time Zones. Two Hemispheres. Zero Chill.
+          </p>
+          <div className="space-y-4 text-lg text-muted max-w-3xl mx-auto">
+            <p>
+              Fantasy football wasn&apos;t supposed to take over our lives. And yet here we are—six guys scattered from Italy to Hawaii, arguing about waiver wire pickups at hours that make no sense in anyone&apos;s time zone.
+            </p>
+            <p>
+              <span className="text-primary font-semibold">Six Rounds Deep</span> is the podcast that sounds exactly like your fantasy league group chat: chaotic, opinionated, occasionally brilliant, and absolutely certain that last week&apos;s loss was somehow rigged.
+            </p>
+            <p>
+              We&apos;re not analysts in a studio. We&apos;re not former players breaking down film. We&apos;re six friends who&apos;ve been playing fantasy together, roasting each other&apos;s trades, and questioning each other&apos;s sanity for years. Now we have microphones, which was probably a mistake.
+            </p>
+          </div>
+        </div>
+
+        {/* How It Started */}
+        <div className="bg-surface rounded-xl p-8 mb-16 border border-surface/50">
+          <h2 className="text-2xl font-bold text-foreground mb-6">
+            How It <span className="text-primary">Started</span>
+          </h2>
+          <div className="space-y-4 text-muted leading-relaxed">
+            <p>
+              It started the way most bad ideas do—someone said &quot;we should start a podcast&quot; and nobody said no.
+            </p>
+            <p>
+              Between us, we&apos;ve got a guy living in Italy watching goats and investigating NFL conspiracies. A Vegas local who can&apos;t win a bet to save his life but trusts FantasyPros like it&apos;s scripture. A spreadsheet wizard who built his own projection model. A Hawaiian riverboat gambler who&apos;s never met a safe floor he liked. A Seahawks fan in Texas with four daughters and a short fuse. And a guy who keeps escaping certain fantasy defeat through what can only be described as dark magic.
+            </p>
+            <p>
+              We figured if we&apos;re going to argue about fantasy football across four time zones anyway, we might as well let people listen.
+            </p>
+          </div>
+        </div>
+
+        {/* Meet the Six */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-foreground mb-8 text-center">
+            Meet the <span className="text-primary">Six</span>
+          </h2>
+          <div className="space-y-6">
+            {hostHighlights.map((host) => {
+              const hostData = hosts.find((h) => h.name === host.name);
+              return (
+                <div
+                  key={host.name}
+                  className="bg-surface rounded-xl p-6 border border-surface/50"
+                >
+                  <div className="flex flex-col sm:flex-row gap-6">
+                    {/* Avatar */}
+                    {hostData && (
+                      <div className="flex-shrink-0">
+                        <div className="relative w-24 h-24 rounded-full overflow-hidden mx-auto sm:mx-0">
+                          <Image
+                            src={hostData.image}
+                            alt={host.name}
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                      </div>
+                    )}
+                    {/* Content */}
+                    <div className="flex-1">
+                      <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-2">
+                        <h3 className="text-xl font-bold text-foreground">
+                          {host.name}{" "}
+                          <span className="text-primary">&quot;{host.nickname}&quot;</span>
+                        </h3>
+                      </div>
+                      <div className="flex items-center gap-1 text-sm text-muted mb-3">
+                        <MapPin className="w-4 h-4" />
+                        {host.location}
+                      </div>
+                      <p className="text-muted leading-relaxed">{host.description}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* What We Talk About */}
+        <div className="bg-gradient-to-br from-primary/10 via-surface to-accent/10 rounded-xl p-8 mb-16 border border-surface/50">
+          <h2 className="text-2xl font-bold text-foreground mb-6">
+            What We <span className="text-primary">Talk About</span>
+          </h2>
+          <p className="text-muted mb-6">Fantasy football, obviously. But also:</p>
+          <ul className="space-y-3 mb-6">
+            {topics.map((topic) => (
+              <li key={topic} className="flex items-start gap-3 text-muted">
+                <span className="text-primary mt-1">•</span>
+                {topic}
+              </li>
+            ))}
+          </ul>
+          <p className="text-muted">
+            We argue. We laugh. We make predictions that age poorly. It&apos;s like sitting at a bar with your league mates, except we&apos;re spread across the globe and one of us might be watching goats.
           </p>
         </div>
 
-        {/* Origin Story */}
+        {/* Why Listen */}
         <div className="bg-surface rounded-xl p-8 mb-16 border border-surface/50">
-          <h2 className="text-2xl font-bold text-foreground mb-4">Our Story</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-6">
+            Why <span className="text-primary">Listen</span>?
+          </h2>
           <div className="space-y-4 text-muted leading-relaxed">
             <p>
-              Six Rounds Deep is what happens when six guys scattered across the globe—from
-              Italy to Hawaii to Texas—come together to argue about fantasy football,
-              questionable lineup decisions, and whether the NFL is actually rigged.
+              Because you&apos;ve got a group chat full of fantasy degenerates too, and you know exactly what this sounds like.
             </p>
             <p>
-              Brady sees conspiracies everywhere and floods the group chat at 3am Italy time.
-              Jared follows expert consensus like it&apos;s scripture. Gabe built his own projection
-              model and will absolutely walk you through it. Rod hasn&apos;t taken a safe play since
-              2019. Steve ate pizza off a Vegas casino floor. And Curt? Curt just wins
-              games he has no business winning.
+              We&apos;re not here to give you optimized lineups generated by algorithms. We&apos;re here to talk fantasy the way real people talk fantasy—with bias, bad takes, personal vendettas against certain players, and the absolute conviction that <em>this</em> is the year everything comes together.
             </p>
-            <p>
-              We&apos;re not former NFL players. We&apos;re not paid analysts. We&apos;re just six friends
-              who take fantasy football way too seriously—and somehow convinced people to
-              listen to us argue about it.
+            <p className="text-secondary font-medium">
+              New episodes drop weekly. Bring your own bad decisions.
             </p>
-            <p>
-              Join us every week for hot takes, questionable advice, and the kind of sports
-              talk that only happens when your group chat goes too far.
-            </p>
-          </div>
-        </div>
-
-        {/* Timeline */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold text-foreground mb-8 text-center">
-            Our <span className="text-primary">Journey</span>
-          </h2>
-          <div className="relative">
-            {/* Vertical line */}
-            <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-surface -translate-x-1/2" />
-
-            {milestones.map((milestone, index) => (
-              <div
-                key={milestone.year + milestone.title}
-                className={`relative flex items-center mb-8 ${
-                  index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                }`}
-              >
-                {/* Dot */}
-                <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-primary rounded-full -translate-x-1/2 z-10" />
-
-                {/* Content */}
-                <div
-                  className={`ml-16 md:ml-0 md:w-1/2 ${
-                    index % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"
-                  }`}
-                >
-                  <div className="bg-surface rounded-xl p-6 border border-surface/50">
-                    <span className="text-primary font-bold">{milestone.year}</span>
-                    <h3 className="text-lg font-semibold text-foreground mt-1 mb-2">
-                      {milestone.title}
-                    </h3>
-                    <p className="text-sm text-muted">{milestone.description}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Values */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold text-foreground mb-8 text-center">
-            What We <span className="text-primary">Stand For</span>
-          </h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            {values.map((value) => (
-              <div
-                key={value.title}
-                className="bg-surface rounded-xl p-6 border border-surface/50"
-              >
-                <value.icon className="w-10 h-10 text-primary mb-4" />
-                <h3 className="text-lg font-semibold text-foreground mb-2">
-                  {value.title}
-                </h3>
-                <p className="text-sm text-muted">{value.description}</p>
-              </div>
-            ))}
           </div>
         </div>
 
         {/* CTA */}
-        <div className="text-center bg-gradient-to-br from-primary/10 via-surface to-accent/10 rounded-xl p-8 border border-surface/50">
+        <div className="text-center bg-surface rounded-xl p-8 border border-surface/50 mb-8">
           <h2 className="text-2xl font-bold text-foreground mb-4">
-            Ready to Go <span className="text-primary">Deep</span>?
+            Find <span className="text-primary">Us</span>
           </h2>
-          <p className="text-muted mb-6 max-w-lg mx-auto">
-            New episodes every week. Available wherever you get your podcasts.
-          </p>
+          <div className="space-y-2 text-muted mb-6">
+            <p><span className="text-foreground font-medium">Listen:</span> Wherever you get your podcasts</p>
+            <p><span className="text-foreground font-medium">Follow:</span> @sixroundsdeep</p>
+            <p><span className="text-foreground font-medium">Join the chaos:</span> Come hang out</p>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/podcast">
               <Button variant="primary" size="lg">
@@ -179,6 +211,11 @@ export default function AboutPage() {
             </Link>
           </div>
         </div>
+
+        {/* Tagline */}
+        <p className="text-center text-muted italic">
+          Six Rounds Deep. Because five rounds wasn&apos;t enough and seven felt excessive.
+        </p>
       </div>
     </div>
   );
