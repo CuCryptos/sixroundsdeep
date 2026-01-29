@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <LatestEpisode />
       <HostsPreview />
+      <LatestEpisode />
       <ArticleGrid />
       <SocialStrip />
       <Newsletter />

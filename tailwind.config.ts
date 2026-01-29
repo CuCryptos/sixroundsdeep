@@ -9,11 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#0a0a0f",
-        surface: "#141420",
-        primary: "#00ff88",
-        secondary: "#ff6b35",
-        accent: "#6366f1",
+        background: "#0a0a0a",
+        surface: "#1a1a1a",
+        primary: "#ff3b3b",
+        secondary: "#ff6b6b",
+        accent: "#8b0000",
         foreground: "#ffffff",
         muted: "#a1a1aa",
       },
@@ -32,11 +32,11 @@ const config: Config = {
       keyframes: {
         "pulse-glow": {
           "0%, 100%": {
-            boxShadow: "0 0 20px rgba(0, 255, 136, 0.3)",
+            boxShadow: "0 0 20px rgba(255, 59, 59, 0.3)",
             filter: "brightness(1)",
           },
           "50%": {
-            boxShadow: "0 0 40px rgba(0, 255, 136, 0.6)",
+            boxShadow: "0 0 40px rgba(255, 59, 59, 0.6)",
             filter: "brightness(1.1)",
           },
         },
@@ -68,7 +68,7 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "hero-gradient": "linear-gradient(135deg, #0a0a0f 0%, #141420 50%, #0a0a0f 100%)",
+        "hero-gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%)",
       },
     },
   },
