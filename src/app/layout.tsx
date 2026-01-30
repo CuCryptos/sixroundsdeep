@@ -11,22 +11,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Six Rounds Deep | Fantasy Football, Sports & Lifestyle",
-  description: "Bold takes, hot picks, and unfiltered sports talk from six passionate hosts across America. Your weekly dose of fantasy football insights, sports analysis, and lifestyle content.",
-  keywords: ["fantasy football", "sports podcast", "NFL", "sports analysis", "lifestyle", "sports betting"],
-  authors: [{ name: "Six Rounds Deep" }],
+  title: "Unfiltered Fantasy | Fantasy Football Podcast & Blog",
+  description: "Bold takes, hot picks, and unfiltered fantasy football talk from six passionate hosts across the globe. Your weekly dose of fantasy insights, hot takes, and chaos.",
+  keywords: ["fantasy football", "fantasy podcast", "NFL", "fantasy analysis", "hot takes", "fantasy advice"],
+  authors: [{ name: "Unfiltered Fantasy" }],
   openGraph: {
-    title: "Six Rounds Deep | Fantasy Football, Sports & Lifestyle",
-    description: "Bold takes, hot picks, and unfiltered sports talk from six passionate hosts across America.",
-    url: "https://sixroundsdeep.com",
-    siteName: "Six Rounds Deep",
+    title: "Unfiltered Fantasy | Fantasy Football Podcast & Blog",
+    description: "Bold takes, hot picks, and unfiltered fantasy football talk from six passionate hosts across the globe.",
+    url: "https://unfilteredfantasy.com",
+    siteName: "Unfiltered Fantasy",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Six Rounds Deep",
-    description: "Bold takes, hot picks, and unfiltered sports talk from six passionate hosts across America.",
+    title: "Unfiltered Fantasy",
+    description: "Bold takes, hot picks, and unfiltered fantasy football talk from six passionate hosts across the globe.",
   },
   robots: {
     index: true,

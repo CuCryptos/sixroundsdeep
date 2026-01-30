@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!article) {
     return {
-      title: "Article Not Found | Six Rounds Deep",
+      title: "Article Not Found | Unfiltered Fantasy",
     };
   }
 
   return {
-    title: `${article.title} | Six Rounds Deep`,
+    title: `${article.title} | Unfiltered Fantasy`,
     description: article.excerpt,
   };
 }

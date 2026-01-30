@@ -4,8 +4,8 @@ import EpisodeCard from "@/components/podcast/EpisodeCard";
 import PlatformLinks from "@/components/podcast/PlatformLinks";
 
 export const metadata: Metadata = {
-  title: "Podcast | Six Rounds Deep",
-  description: "Listen to the latest episodes of Six Rounds Deep. Fantasy football analysis, bold predictions, and unfiltered sports talk.",
+  title: "Podcast | Unfiltered Fantasy",
+  description: "Listen to the latest episodes of Unfiltered Fantasy. Fantasy football analysis, bold predictions, and unfiltered sports talk.",
 };
 
 export default function PodcastPage() {
@@ -44,7 +44,7 @@ export default function PodcastPage() {
                 About the Show
               </h3>
               <p className="text-sm text-muted mb-4">
-                Six Rounds Deep is your weekly destination for fantasy football insights,
+                Unfiltered Fantasy is your weekly destination for fantasy football insights,
                 NFL analysis, and lifestyle content. Six hosts from across America bring
                 unique perspectives to help you dominate your leagues.
               </p>

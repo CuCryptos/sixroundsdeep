@@ -327,7 +327,7 @@ Every ranking here is backed by data: target share, air yards, red zone opportun
   {
     id: "2",
     slug: "floor-pizza-and-other-vegas-stories",
-    title: "Floor Pizza and Other Vegas Stories: A Six Rounds Deep Legend",
+    title: "Floor Pizza and Other Vegas Stories: An Unfiltered Fantasy Legend",
     excerpt: "The true story of how Steve earned his nickname and other tales from our Vegas trips.",
     content: `There's something magical about watching a big game in Vegas surrounded by fellow degenerates. The drinks are flowing, the bets are down, and sometimes... sometimes the pizza falls.
 

@@ -6,8 +6,8 @@ import { hosts } from "@/lib/data";
 import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "About | Six Rounds Deep",
-  description: "Six friends. Four time zones. Two hemispheres. Zero chill. Learn about Six Rounds Deep - the fantasy football podcast that sounds exactly like your league group chat.",
+  title: "About | Unfiltered Fantasy",
+  description: "Six friends. Four time zones. Two hemispheres. Zero chill. Learn about Unfiltered Fantasy - the fantasy football podcast that sounds exactly like your league group chat.",
 };
 
 export default function AboutPage() {
@@ -65,7 +65,7 @@ export default function AboutPage() {
         {/* Hero */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            About <span className="text-primary">Six Rounds Deep</span>
+            About <span className="text-primary">Unfiltered Fantasy</span>
           </h1>
           <p className="text-2xl md:text-3xl font-bold text-secondary mb-6">
             Six Friends. Four Time Zones. Two Hemispheres. Zero Chill.
@@ -75,7 +75,7 @@ export default function AboutPage() {
               Fantasy football wasn&apos;t supposed to take over our lives. And yet here we are—six guys scattered from Italy to Hawaii, arguing about waiver wire pickups at hours that make no sense in anyone&apos;s time zone.
             </p>
             <p>
-              <span className="text-primary font-semibold">Six Rounds Deep</span> is the podcast that sounds exactly like your fantasy league group chat: chaotic, opinionated, occasionally brilliant, and absolutely certain that last week&apos;s loss was somehow rigged.
+              <span className="text-primary font-semibold">Unfiltered Fantasy</span> is the podcast that sounds exactly like your fantasy league group chat: chaotic, opinionated, occasionally brilliant, and absolutely certain that last week&apos;s loss was somehow rigged.
             </p>
             <p>
               We&apos;re not analysts in a studio. We&apos;re not former players breaking down film. We&apos;re six friends who&apos;ve been playing fantasy together, roasting each other&apos;s trades, and questioning each other&apos;s sanity for years. Now we have microphones, which was probably a mistake.
@@ -214,7 +214,7 @@ export default function AboutPage() {
 
         {/* Tagline */}
         <p className="text-center text-muted italic">
-          Six Rounds Deep. Because five rounds wasn&apos;t enough and seven felt excessive.
+          Unfiltered Fantasy. No scripts. No filters. Just chaos.
         </p>
       </div>
     </div>

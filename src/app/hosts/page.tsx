@@ -4,8 +4,8 @@ import HostCard from "@/components/hosts/HostCard";
 import USMap from "@/components/hosts/USMap";
 
 export const metadata: Metadata = {
-  title: "Meet the Hosts | Six Rounds Deep",
-  description: "Six friends. Four time zones. Two hemispheres. One fantasy obsession. Meet the hosts behind Six Rounds Deep.",
+  title: "Meet the Hosts | Unfiltered Fantasy",
+  description: "Six friends. Four time zones. Two hemispheres. One fantasy obsession. Meet the hosts behind Unfiltered Fantasy.",
 };
 
 export default function HostsPage() {

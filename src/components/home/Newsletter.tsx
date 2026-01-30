@@ -53,7 +53,7 @@ export default function Newsletter() {
                 <span className="font-semibold">You&apos;re in!</span>
               </div>
               <p className="text-sm text-muted">
-                Welcome to the Six Rounds Deep community. Check your inbox for a confirmation email.
+                Welcome to the Unfiltered Fantasy community. Check your inbox for a confirmation email.
               </p>
             </motion.div>
           ) : (
@@ -77,7 +77,7 @@ export default function Newsletter() {
           )}
 
           <p className="text-xs text-muted mt-4">
-            By subscribing, you agree to receive emails from Six Rounds Deep.
+            By subscribing, you agree to receive emails from Unfiltered Fantasy.
             Unsubscribe anytime.
           </p>
         </motion.div>

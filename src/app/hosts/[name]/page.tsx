@@ -23,12 +23,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!host) {
     return {
-      title: "Host Not Found | Six Rounds Deep",
+      title: "Host Not Found | Unfiltered Fantasy",
     };
   }
 
   return {
-    title: `${host.name} "${host.nickname}" | Six Rounds Deep`,
+    title: `${host.name} "${host.nickname}" | Unfiltered Fantasy`,
     description: host.bio,
   };
 }

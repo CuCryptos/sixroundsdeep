@@ -35,7 +35,7 @@ export default function ArticlesPage() {
           </h1>
           <p className="text-lg text-muted max-w-2xl">
             Deep dives, hot takes, and everything in between. Expert analysis from
-            the Six Rounds Deep crew.
+            the Unfiltered Fantasy crew.
           </p>
         </motion.div>
 

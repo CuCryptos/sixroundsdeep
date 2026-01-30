@@ -102,14 +102,14 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-foreground mb-4 tracking-tight">
-            <span className="block">SIX ROUNDS</span>
             <motion.span
               className="block bg-gradient-to-r from-primary via-yellow-400 to-primary bg-[length:200%_auto] bg-clip-text text-transparent"
               animate={{ backgroundPosition: ["0% center", "200% center"] }}
               transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
             >
-              DEEP
+              UNFILTERED
             </motion.span>
+            <span className="block">FANTASY</span>
           </h1>
         </motion.div>
 
@@ -120,7 +120,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl md:text-2xl text-muted font-medium max-w-3xl mx-auto mb-4"
         >
-          Fantasy Football&apos;s Most Unfiltered Podcast
+          Raw Takes. Bold Picks. No Filter.
         </motion.p>
 
         {/* Subtext */}

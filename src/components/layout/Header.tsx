@@ -42,7 +42,7 @@ export default function Header() {
               className="relative"
             >
               <span className="text-2xl md:text-3xl font-black bg-gradient-to-r from-primary via-yellow-400 to-primary bg-[length:200%_auto] bg-clip-text text-transparent">
-                6RD
+                UF
               </span>
               <motion.span
                 className="absolute -inset-2 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -50,7 +50,7 @@ export default function Header() {
             </motion.div>
             <div className="hidden sm:block">
               <span className="text-lg font-bold text-foreground">
-                Six Rounds Deep
+                Unfiltered Fantasy
               </span>
               <span className="block text-xs text-muted -mt-0.5">Fantasy Football Podcast</span>
             </div>

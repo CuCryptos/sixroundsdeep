@@ -25,12 +25,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!episode) {
     return {
-      title: "Episode Not Found | Six Rounds Deep",
+      title: "Episode Not Found | Unfiltered Fantasy",
     };
   }
 
   return {
-    title: `${episode.title} | Six Rounds Deep Podcast`,
+    title: `${episode.title} | Unfiltered Fantasy Podcast`,
     description: episode.description,
   };
 }

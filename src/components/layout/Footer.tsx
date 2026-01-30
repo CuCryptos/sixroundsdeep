@@ -9,10 +9,10 @@ const footerLinks = {
     { name: "About", href: "/about" },
   ],
   social: [
-    { name: "Twitter", href: "https://twitter.com/sixroundsdeep", icon: Twitter },
-    { name: "Instagram", href: "https://instagram.com/sixroundsdeep", icon: Instagram },
-    { name: "YouTube", href: "https://youtube.com/@sixroundsdeep", icon: Youtube },
-    { name: "Email", href: "mailto:hello@sixroundsdeep.com", icon: Mail },
+    { name: "Twitter", href: "https://twitter.com/unfaborust", icon: Twitter },
+    { name: "Instagram", href: "https://instagram.com/unfilteredfantasy", icon: Instagram },
+    { name: "YouTube", href: "https://youtube.com/@unfilteredfantasy", icon: Youtube },
+    { name: "Email", href: "mailto:hello@unfilteredfantasy.com", icon: Mail },
   ],
   platforms: [
     { name: "Spotify", href: "#" },
@@ -30,10 +30,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="inline-block">
-              <span className="text-3xl font-bold text-primary">6RD</span>
+              <span className="text-3xl font-bold text-primary">UF</span>
             </Link>
             <p className="mt-4 text-muted text-sm leading-relaxed">
-              Bold takes, hot picks, and unfiltered sports talk from six passionate hosts across America.
+              Raw takes, bold picks, and unfiltered fantasy football talk from six passionate hosts across the globe.
             </p>
           </div>
 
@@ -94,7 +94,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-background flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-muted text-sm">
-            &copy; {new Date().getFullYear()} Six Rounds Deep. All rights reserved.
+            &copy; {new Date().getFullYear()} Unfiltered Fantasy. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <Link href="/privacy" className="text-muted hover:text-primary transition-colors">
