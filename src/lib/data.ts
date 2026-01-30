@@ -493,58 +493,68 @@ Me? I just had a feeling.
   {
     id: "7",
     slug: "super-bowl-ffpc-playoff-challenge-data-breakdown",
-    title: "FFPC Playoff Challenge: A Data-Driven Super Bowl Breakdown",
-    excerpt: "The numbers reveal the optimal Super Bowl stacking strategy. My model ran 10,000 simulations.",
-    content: `The FFPC Playoff Challenge is the ultimate test of fantasy football skill. No trades. No waivers. Just you, your draft picks, and the cold, hard math. I've spent the last two weeks building a projection model specifically for Super Bowl player pool optimization, and the numbers are fascinating.
+    title: "FFPC Super Bowl LX Breakdown: Seahawks vs Patriots by the Numbers",
+    excerpt: "JSN is the most rostered player in the contest. TreVeyon Henderson has league-winning upside. Here's my full model.",
+    content: `The FFPC Playoff Challenge comes down to Super Bowl LX: Seattle Seahawks vs New England Patriots at Levi's Stadium. Two 14-3 teams. The first Seahawks-Patriots Super Bowl since the Malcolm Butler interception in 2015. And the ownership data is already telling us exactly where the value is.
 
 ## The Ownership Problem
 
-Here's what most FFPC players get wrong: they chase the "best" players without considering ownership percentages. In a tournament format, you're not trying to outscore your opponent – you're trying to outscore the field. That requires differentiation.
+Here's what the field is doing. Everyone's loading up on the same chalk:
 
-My model projects the following ownership percentages for Super Bowl players:
+### Chalk Plays (High Ownership)
+- Jaxon Smith-Njigba: 78% ownership (most rostered player in the contest)
+- Drake Maye: 64% ownership
+- Kenneth Walker III: 52% ownership
+- Rhamondre Stevenson: 47% ownership
 
-### Chalk Plays (70%+ Projected Ownership)
-- Patrick Mahomes: 78%
-- Travis Kelce: 82%
-- Isiah Pacheco: 71%
-
-These are the players everyone will have. Starting them doesn't lose you the tournament, but it won't win it either.
+JSN led the NFL with 1,793 receiving yards and is the obvious play. But at 78% ownership, he needs a monster game just to keep pace with the field.
 
 ## The Leverage Formula
 
-I've developed what I call the "Leverage Score" – a proprietary metric that weighs projected points against ownership percentage. The formula:
+I've developed what I call the "Leverage Score" – a proprietary metric that weighs projected points against ownership percentage:
 
 \`Leverage Score = (Projected Points × Ceiling Multiplier) / √Ownership%\`
 
-### Top Leverage Plays
+### Top Leverage Plays for Super Bowl LX
 
-1. **Rashee Rice** - If healthy, his target share data is elite. My model shows 8.2 targets projected, yet ownership sits at just 34%. That's a leverage goldmine.
+1. **TreVeyon Henderson (31% ownership)** - This is the play. Henderson has a unique ability to score long touchdowns – multiple 50+ yard TDs this season. At 31% vs Stevenson's 47%, Henderson's ceiling is tournament-winning. Imagine getting DOUBLE points from him ripping off a 60-yard TD in the Super Bowl.
 
-2. **Jerick McKinnon** - The passing-down back in a game projected for 52+ points? At 18% ownership? The expected value is off the charts.
+2. **Sam Darnold (22% ownership)** - Everyone's taking Drake Maye at 64%. But Darnold just had a turnover-free NFC Championship. He's a Pro Bowler for the second straight year. At 22% ownership, he's the ultimate leverage pivot.
 
-3. **Hollywood Brown** - Deep threat in what projects to be a shootout. Ceiling games at 22% ownership.
+3. **Hunter Henry (19% ownership)** - The Patriots TE in a 1.5 PPR format at 19% ownership? The field is taking Maye or Henderson from New England. Henry is the contrarian Patriots pivot in a TE-premium contest.
 
 ## Game Script Projections
 
-My model ran 10,000 game simulations. Here's the distribution:
+My model ran 10,000 simulations of Seahawks vs Patriots:
 
-- Chiefs win by 7+: 31%
-- Chiefs win by 1-6: 19%
-- Game decided by 3 or less: 28%
-- Opponent wins: 22%
+- Seahawks win by 7+: 34%
+- Seahawks win by 1-6: 22%
+- Game decided by 3 or less: 19%
+- Patriots win: 25%
 
-A close game means more pass attempts. More pass attempts mean target-dependent players outperform. The data supports a pass-catcher heavy build.
+Seattle's #1 scoring defense (17 PPG allowed) should control this game. But the Patriots have the explosiveness to keep it close. The 45.5 O/U suggests a lower-scoring game – target efficient players over volume.
 
-## The Optimal Roster Construction
+## The Double Points Factor
 
-Based on 10,000 Monte Carlo simulations, here's the roster construction that maximizes expected tournament equity:
+Remember: Super Bowl points count DOUBLE in FFPC. If TreVeyon Henderson scores 35 points in the Super Bowl, that's 70 points in your total. At 31% ownership vs Kenneth Walker's 52%, the leverage math is overwhelming.
 
-1. **QB Stack with WR2/WR3** - Not the obvious stack. The leverage stack.
-2. **Contrarian RB** - The backup who sees passing work
-3. **Ceiling TE** - Kelce is the play, but consider a pivot at his ownership
+## The JSN vs Christian Gonzalez Matchup
+
+The Patriots will likely put star CB Christian Gonzalez on JSN. Seattle's other receivers didn't crack 600 yards this season. If Gonzalez locks down JSN, the 78% of the field rostering him is in trouble.
+
+This is why Sam Darnold at 22% is so interesting – if JSN struggles, Darnold's other options (Walker dump-offs, AJ Barner) become more valuable.
+
+## My Optimal Build
+
+Based on my model:
+
+1. **Sam Darnold** over Drake Maye (leverage)
+2. **TreVeyon Henderson** over Rhamondre Stevenson (ceiling)
+3. **Hunter Henry** as the Patriots pivot (19% ownership, TE premium)
+4. **JSN** - yes, still roster him, but pair with contrarian pieces
 
 The numbers don't lie. Trust the model.`,
-    date: "2025-01-28",
+    date: "2026-02-06",
     author: "Gabe",
     category: "Analysis",
     image: "/articles/ffpc-data.jpg",
@@ -554,55 +564,78 @@ The numbers don't lie. Trust the model.`,
   {
     id: "8",
     slug: "super-bowl-rigged-evidence-brady",
-    title: "The Super Bowl Matchup We Were 'Supposed' to Get: I'm Just Asking Questions",
-    excerpt: "This matchup was determined in August. The evidence is overwhelming.",
-    content: `Look, I've been saying this all season. I've been SAYING it. And now here we are, with exactly the Super Bowl matchup the league office wanted from the start.
+    title: "Seahawks vs Patriots AGAIN? The Malcolm Butler Rematch Was Written in 2015",
+    excerpt: "The NFL waited 11 years to give us this rematch. At Levi's Stadium. Where Super Bowl 50 happened. I'm just asking questions.",
+    content: `Look, I've been saying this all season. I've been SAYING it. And now here we are – Seahawks vs Patriots in Super Bowl LX. The EXACT SAME MATCHUP as Super Bowl XLIX. Eleven years later. You think this is coincidence?
 
-You think this is coincidence? Let me walk you through what I found.
+Let me walk you through what I found.
+
+## The "Redemption" Narrative
+
+The NFL has been pushing the "Malcolm Butler" storyline for over a decade. Every time the Seahawks are good, every talking head brings up "the pass at the goal line." Pete Carroll's legacy. The play that haunted Seattle.
+
+And now? Pete Carroll is gone. Mike Macdonald is the new coach. Sam Darnold – the JETS BUST – is the quarterback leading Seattle back to the Super Bowl. Against the Patriots. At Levi's Stadium. Where the Broncos beat the Panthers in Super Bowl 50.
+
+The league LOVES symmetry. Too much. Almost like they plan it.
 
 ## The Schedule "Coincidences"
 
-Go back and look at the schedule. Really look at it. Both Super Bowl teams got:
+Look at what both teams got this season:
 
-- 5 primetime games each (league average: 2.3)
-- Bye weeks in favorable weather windows
-- Their toughest opponents on short rest
-- Monday Night Football before their softest matchup
+**Seattle Seahawks:**
+- 14-3 record with the #1 seed
+- Jaxon Smith-Njigba "breaks out" for 1,793 yards (best WR season in franchise history)
+- Sam Darnold goes from "bust" to Pro Bowler in ONE YEAR
+- Home NFC Championship against the Rams (divisional rival, easy narrative)
 
-The scheduling algorithm is supposed to be neutral. But when two teams get this many advantages? That's not an algorithm. That's a plan.
+**New England Patriots:**
+- 14-3 record with the #2 seed
+- Drake Maye plays "MVP caliber" in just his second year
+- First Super Bowl since Tom Brady left
+- Mike Vrabel returns to New England and immediately makes the Super Bowl
 
-## The Officiating Patterns
+The scheduling algorithm is supposed to be neutral. But when BOTH teams go 14-3? When BOTH have second-year coaches? When the narratives line up THIS perfectly?
 
-I've tracked every penalty called on both teams this season. The data is STUNNING:
+That's not luck. That's a writers' room.
 
-- Critical 3rd down penalties against opponents: +47% above league average
-- Holding calls on game-winning drives: 0 (ZERO)
-- Pass interference challenges overturned: 100%
+## The Sam Darnold Problem
 
-You're telling me that's random? Run the probability on that. I'll wait.
+Let me get this straight. Sam Darnold:
+- Was a bust with the Jets
+- Bounced around the league
+- Signs with Minnesota, makes the Pro Bowl
+- Signs a $100.5 MILLION deal with Seattle
+- Immediately goes 14-3 and makes the Super Bowl
 
-## The Betting Line Movement
+You're telling me that's just... player development? The same guy who couldn't complete a pass against ghosts in New York is now one game away from a championship?
 
-This is where it gets really interesting. I've been tracking line movements at 3am (when the "sharp money" moves) all season. Both Super Bowl teams have been involved in suspicious line movements 11 times this year.
+Someone decided Sam Darnold was going to be the story this year. The "redemption arc" was too perfect not to write.
 
-The lines moved BEFORE the injury reports. Before the weather forecasts. Before any public information.
+## The Patriots Return
 
-How do you explain that? You can't. Because someone knows something.
+The Patriots haven't been to a Super Bowl since Tom Brady left. And now, the FIRST YEAR they're good again, they make it back? Against the team from the most controversial Super Bowl ending in history?
 
-## What Happens in the Game
+Mike Vrabel – former Patriots player – is the coach. He's running the same system. This is the NFL saying "the Patriots are back" and manufacturing the content to prove it.
 
-I'm not going to tell you who wins – I'm not allowed to do that anymore after what happened in the group chat. But I will tell you this: watch the officials. Watch the spot calls. Watch who gets the favorable spots on 4th-and-short.
+## The Levi's Stadium Connection
 
-The game isn't played on the field. It's played in the league office in New York.
+Super Bowl LX is at Levi's Stadium in Santa Clara. The same stadium that hosted Super Bowl 50 – the last Super Bowl before the Patriots dynasty's final run.
 
-I'm not saying it's definitely rigged. I'm just asking questions.
+The NFL chose this location YEARS ago. They knew. They always know.
 
-## The Vegas Connection
+## What I'm Watching For
 
-Final thought: Why is the Super Bowl in Vegas? The gambling capital of the world hosts the biggest betting event of the year, and we're supposed to believe that's just about stadium availability?
+On February 8th, I'll be tracking:
 
-Follow the money. It always leads you to the truth.`,
-    date: "2025-01-27",
+1. Any goal-line plays for Seattle (will they run or pass?)
+2. Holding calls when the Seahawks are driving
+3. Spot placement on key 4th downs
+4. Whether Drake Maye gets any roughing calls that Darnold doesn't
+
+I'm not saying the Super Bowl is definitely rigged. I'm just asking questions that nobody else will ask.
+
+The truth is at Levi's Stadium. It's been there since 2015.`,
+    date: "2026-02-05",
     author: "Brady",
     category: "Conspiracy",
     image: "/articles/super-bowl-rigged.jpg",
@@ -612,61 +645,73 @@ Follow the money. It always leads you to the truth.`,
   {
     id: "9",
     slug: "ffpc-playoff-challenge-boom-bust-picks",
-    title: "Swing for the Fences: My FFPC Playoff Challenge Super Bowl Roster",
-    excerpt: "Safe plays are for the regular season. Championship weekend demands chaos.",
-    content: `Everyone's going to roster the same boring chalk. Mahomes. Kelce. The obvious stuff. And they're going to finish in the middle of the pack, collect their participation trophy, and wonder what went wrong.
+    title: "Fading JSN, Riding TreVeyon: My FFPC Super Bowl LX Chaos Roster",
+    excerpt: "JSN at 78%? Drake Maye at 64%? I'm betting on the Patriots upset. Let's get dangerous.",
+    content: `Seahawks vs Patriots. Everyone's going to roster the same boring chalk – Jaxon Smith-Njigba, Drake Maye, Kenneth Walker. And they're going to finish in the middle of the pack, collect their participation trophy, and wonder what went wrong.
 
 Not me. I'm here to WIN.
 
-## The Riverboat Philosophy: Tournament Edition
+## The Riverboat Philosophy: Super Bowl Edition
 
 Listen, I finished 2nd in my FFPC league last year by being "smart." By being "safe." By listening to Gabe's model and Jared's expert consensus.
 
 You know what 2nd place gets you? Nothing. A story about how close you were.
 
-This year, I'm swinging for the fences. Here's my Super Bowl roster construction:
+This year, I'm swinging for the fences with a Patriots-heavy build. Here's my chaos roster:
 
-## The Stack Nobody Expects
+## THE PATRIOTS UPSET STACK
 
-I'm not stacking the favorite. Everyone's doing that. I'm stacking the underdog, and I'm stacking them HARD.
+**Drake Maye (64%)** is chalk. But what if I told you the REAL play is **TreVeyon Henderson + Hunter Henry + Stefon Diggs**?
 
-**QB + WR1 + WR2 from the underdog team.**
+The Patriots are 4.5-point underdogs. If they WIN – and my gut says they will – everyone with JSN at 78% ownership is COOKED.
 
-Is this insane? Maybe. But if the underdog wins in a shootout – which happens 35% of the time in Super Bowls – I'm going to leapfrog 70% of the field.
+Remember: Super Bowl points are DOUBLE. If TreVeyon Henderson rips off a 65-yard TD and finishes with 140 scrimmage yards and 2 TDs? That's 35+ points. DOUBLED. At 31% ownership while Kenneth Walker owners at 52% cry.
 
 ## My Actual Picks
 
 ### THE CHAOS PLAYS:
 
-1. **Underdog QB** - At 15% ownership, he only needs a decent game to return value. If they WIN? I'm printing money.
+1. **TreVeyon Henderson over Kenneth Walker** - Henderson has the big-play ability that Walker doesn't. Multiple 50+ yard TDs this season. Walker is the "safe" play. Henderson is the "win your tournament" play. I'm not here to be safe.
 
-2. **The WR Nobody's Talking About** - Every Super Bowl has a breakout player we didn't see coming. Last year's guy was a 4% owned WR who went for 140 yards and 2 TDs. I'm finding that guy.
+2. **Sam Darnold over Drake Maye** - HEAR ME OUT. Everyone's loading up on Maye at 64%. But Darnold just had a CLEAN NFC Championship – zero turnovers. He's a Pro Bowler. At 22% ownership, if the Seahawks win big, Darnold is the leverage play of the tournament.
 
-3. **The Revenge Game RB** - Former team. Chip on shoulder. Narrative. The football gods love this stuff.
+3. **Stefon Diggs as my Patriots WR** - The field is fading Patriots WRs because "JSN is the obvious play." Diggs at 18% ownership? In a game where the Patriots might need to throw to keep up? That's value.
 
 ### THE CONTRARIAN FADES:
 
-I'm fading Travis Kelce. There, I said it. At 82% ownership, he needs 150 yards and 2 TDs just to keep pace. The risk/reward is backwards.
+**Jaxon Smith-Njigba at 78% ownership.** I said it. JSN needs 150 yards and 2 TDs just to return value at that ownership. Christian Gonzalez is going to shadow him. The Patriots defense is LEGIT. The risk/reward is backwards.
 
-## Why This Works
+**Kenneth Walker at 52% ownership.** He's good. But when 52% of the field has him, his touchdowns don't separate you from anyone. I'd rather bet on the Patriots' explosive plays.
 
-In tournaments, you need to be DIFFERENT. The math is simple:
+## The Double Points Math
 
-- If I'm right and you're wrong: I win big
-- If we're both right: We tie
-- If we're both wrong: We tie
-- If you're right and I'm wrong: I lose
+Here's why this works. Super Bowl points count double in FFPC:
 
-Three of those four outcomes favor being contrarian. That's the edge.
+- If Henderson scores 30 points → 60 FFPC points at 31% ownership
+- If Walker scores 30 points → 60 FFPC points at 52% ownership
+
+Same points, but Henderson gives me the leverage. That's the edge.
+
+## Why I Love the Patriots
+
+Everyone forgot the Patriots know how to win Super Bowls. Six championships. Mike Vrabel was PART of those teams. Drake Maye is playing like an MVP. TreVeyon Henderson is the explosive weapon nobody's talking about.
+
+The Seahawks have Sam Darnold. SAM DARNOLD. You're going to tell me the guy who saw ghosts in New York is going to beat the Patriots in the Super Bowl?
+
+## The Malcolm Butler Factor
+
+The last time these teams played in the Super Bowl, Malcolm Butler made the interception at the goal line. The Patriots have the championship DNA. Seattle has the trauma.
+
+History favors New England. My bankroll agrees.
 
 ## Final Thoughts
 
-Gabe's going to read this and have a stroke. His model says I have a 12% chance of cashing. He's probably right.
+Gabe's going to read this and have a stroke. His model says I have a 15% chance of cashing with this build.
 
-But his model also says I have a 3% chance of taking down first place. You know what the chalk lineup's first-place probability is? 0.4%.
+But his model also says I have a 6% chance of taking down first place. You know what the chalk JSN/Maye/Walker lineup's first-place probability is? 0.4%.
 
-I'll take my 3% and let it ride.`,
-    date: "2025-01-26",
+I'll take my 6% and let it ride. See you at Levi's Stadium.`,
+    date: "2026-02-04",
     author: "Rod",
     category: "Hot Takes",
     image: "/articles/ffpc-boom-bust.jpg",
@@ -676,71 +721,87 @@ I'll take my 3% and let it ride.`,
   {
     id: "10",
     slug: "expert-consensus-super-bowl-props-ffpc",
-    title: "What 52 Experts Say About Super Bowl Props & FFPC Strategy",
-    excerpt: "I compiled every expert ranking. Here's the consensus Super Bowl playbook.",
-    content: `You know me. I trust the process. I trust the experts. And for the Super Bowl, I went DEEP on the research.
+    title: "Seahawks vs Patriots: What 48 Experts Say About Super Bowl LX Props",
+    excerpt: "I compiled every expert ranking for the Malcolm Butler rematch. Here's the consensus playbook.",
+    content: `You know me. I trust the process. I trust the experts. And for Super Bowl LX – Seahawks vs Patriots at Levi's Stadium – I went DEEP on the research.
 
-I compiled rankings and prop projections from 52 different analysts across FantasyPros, PFF, The Athletic, ESPN, and about 30 podcasts. When this many smart people agree on something, you should probably listen.
+I compiled rankings and prop projections from 48 different analysts across FantasyPros, PFF, The Athletic, ESPN, and about 25 podcasts. When this many smart people agree on something, you should probably listen.
 
 ## The Expert Consensus: Super Bowl MVP
 
 Here's who the experts think will win MVP:
 
-1. **Patrick Mahomes** - 34/52 experts (65%)
-2. **Travis Kelce** - 8/52 experts (15%)
-3. **Isiah Pacheco** - 5/52 experts (10%)
-4. **Other** - 5/52 experts (10%)
+1. **Jaxon Smith-Njigba** - 19/48 experts (40%)
+2. **Drake Maye** - 12/48 experts (25%)
+3. **Kenneth Walker III** - 8/48 experts (17%)
+4. **Sam Darnold** - 5/48 experts (10%)
+5. **Other** - 4/48 experts (8%)
 
-The consensus is STRONG on Mahomes. When 65% of experts agree, that's as close to a lock as you'll find.
+The JSN consensus is STRONG. When 40% of experts agree on one player in a two-team game, that's significant. The experts see Seattle's #1 receiver having a monster game – he led the NFL with 1,793 receiving yards for a reason.
 
-## Prop Bet Consensus
+## Prop Bet Consensus: Seahawks vs Patriots
 
-I averaged out projections from all 52 sources. Here's where the experts land:
+I averaged out projections from all 48 sources. Here's where the experts land:
 
 ### Over/Under Consensus:
-- Total Points: 48.7 (slight lean OVER)
-- Mahomes Pass Yards: 287
-- Kelce Receiving Yards: 78
-- Combined Rushing Yards: 156
+- Total Points: 45.5 (slight lean UNDER - 29/48)
+- JSN Receiving Yards: 94.5 (lean OVER - 31/48)
+- Kenneth Walker Rush Yards: 78.5 (lean OVER - 33/48)
+- Drake Maye Pass Yards: 261.5 (lean UNDER - 27/48)
+- TreVeyon Henderson Rush Yards: 62.5 (SMASH OVER - 41/48)
 
 ### "Smash" Props (80%+ Expert Agreement):
-- Kelce OVER 5.5 receptions (47/52 lean over)
-- First TD NOT a running back (44/52)
-- Mahomes OVER 1.5 TD passes (51/52)
+- JSN OVER 7.5 receptions (44/48 lean over)
+- Kenneth Walker OVER 15.5 rush attempts (42/48)
+- Sam Darnold OVER 0.5 interceptions (39/48 lean over)
+- Drake Maye OVER 1.5 TD passes (45/48)
 
-When 51 out of 52 experts agree, you take that bet.
+When 44 out of 48 experts agree JSN goes OVER 7.5 catches, you take that bet.
 
 ## FFPC Playoff Challenge Consensus Picks
 
-For tournament play, here's who the experts are building around:
+For the FFPC Super Bowl roster, here's the expert consensus:
 
-### Tier 1: Lock and Load (Start Everywhere)
-- Patrick Mahomes
-- Travis Kelce
-- Top opposing WR
+### Tier 1: Must-Starts (85%+ Expert Agreement)
+- **Jaxon Smith-Njigba** - The best fantasy asset in the game. 78% ownership is justified.
+- **Drake Maye** - MVP-caliber season, four points per TD pass.
+- **Kenneth Walker III** - Workhorse back, goal-line role locked in.
 
-### Tier 2: High-Floor Plays
-- Isiah Pacheco
-- Rashee Rice (if healthy)
-- Opposing TE
+### Tier 2: High-Floor Plays (65%+ Agreement)
+- **TreVeyon Henderson** - Explosive ceiling, 50+ yard TD upside.
+- **Sam Darnold** - Turnover-free in NFC Championship, underrated.
+- **Hunter Henry** - 1.5 PPR format, Maye's safety valve.
 
-### Tier 3: Leverage Plays
-The experts are split here, which is actually useful information. When 52 smart people can't agree, that's where you find your edge.
+### Tier 3: Leverage Plays (Experts Split)
+- **Stefon Diggs** - Only 18% ownership, could see 8+ targets.
+- **AJ Barner** - Seahawks TE, sneaky red zone option.
+- **Rhamondre Stevenson** - Volume play if Patriots control clock.
+
+## The JSN vs Christian Gonzalez Matchup
+
+This is THE matchup of the game. Gonzalez is one of the best young corners in football. JSN is the league's best receiver.
+
+31 of 48 experts say JSN still SMASHES regardless of coverage. The other 17 are worried about shadow coverage. This is where the experts disagree, which means it's where you find your edge.
 
 ## My FFPC Build
 
-Based on the consensus, here's my roster:
+Based on the consensus, here's my Super Bowl roster:
 
-I'm following the experts. Mahomes, Kelce, the chalk plays everyone agrees on. Yes, Rod says I'm being boring. Yes, Brady says the experts are "in on it."
+**Seahawks:** Jaxon Smith-Njigba, Kenneth Walker III, Sam Darnold
+**Patriots:** Drake Maye, TreVeyon Henderson
 
-But you know what? The experts are experts for a reason. They do this professionally. They have access to data we don't have. When 52 of them agree on something, I'm not smart enough to fade that.
+Yes, Rod says I'm being boring. Yes, Brady says the experts are "in on it." Yes, Gabe wants me to "consider the leverage math."
+
+But you know what? The experts are experts for a reason. They do this professionally. They have access to data we don't have. When 44 out of 48 experts say JSN goes OVER 7.5 catches, I'm not smart enough to fade that.
 
 ## Final Thought
 
-Last year, the expert consensus lineup finished in the 68th percentile. That's not first place, but it's profitable. It's sustainable. It's how you build long-term bankroll.
+In the 2025 FFPC Playoff Challenge, the expert consensus lineup finished in the 68th percentile. That's not first place, but it cashed. It's sustainable. It's how you build long-term bankroll.
+
+Rod's out here trying to win the lottery. I'm trying to build consistent profit.
 
 Sometimes boring is beautiful.`,
-    date: "2025-01-25",
+    date: "2026-02-03",
     author: "Jared",
     category: "Analysis",
     image: "/articles/expert-super-bowl.jpg",
@@ -750,70 +811,112 @@ Sometimes boring is beautiful.`,
   {
     id: "11",
     slug: "super-bowl-sunday-survival-guide",
-    title: "A Super Bowl Sunday Survival Guide From a Man Who's Seen Things",
-    excerpt: "Four daughters. One TV. Zero chance of watching in peace. Here's how I cope.",
+    title: "MY SEAHAWKS ARE IN THE SUPER BOWL: A Survival Guide For a Man Who's Waited 11 Years",
+    excerpt: "Four daughters. One TV. MY TEAM IS FINALLY PLAYING. I am going to absolutely lose my mind.",
     content: `Let me paint you a picture.
 
-It's Super Bowl Sunday. The biggest game of the year. I've got three screens set up – main TV for the game, laptop for live stats, phone for the group chat. I've got my jersey on. I've got my snacks ready. I've got my FFPC lineup locked.
+It's Super Bowl Sunday. SEAHAWKS VS PATRIOTS. MY TEAM. MY SEAHAWKS. IN THE SUPER BOWL. After ELEVEN YEARS of watching other teams celebrate. After the Malcolm Butler interception. After Pete Carroll left. After years of mediocrity.
 
-And then I hear it.
+THE SEAHAWKS ARE IN THE SUPER BOWL AND I AM NOT OKAY.
 
-"DADDY, SOPHIA WON'T SHARE THE IPAD."
+I've got three screens set up – main TV for the game, laptop for live stats, phone for the group chat. I've got my Seahawks jersey on – the REAL one, the one I wore in 2014 when we won Super Bowl XLVIII. I've got my snacks ready. I've got my FFPC lineup locked (JSN, obviously).
 
-This is my life. This is Super Bowl Sunday with four daughters under 12.
+And my four daughters are about to witness their father have a complete emotional breakdown on national television.
+
+## THIS IS NOT A DRILL
+
+Do you understand what this means? The Seahawks haven't been to the Super Bowl since 2015. Since the play. Since Malcolm Butler. Since the worst moment of my sports-watching life.
+
+And now we're back. Against the SAME TEAM. At Levi's Stadium. With a chance to AVENGE the worst loss in franchise history.
+
+Sam Darnold – SAM DARNOLD – is about to lead my team to a championship. The guy who saw ghosts in New York. The guy who bounced around the league. The guy who signed a $100.5 million deal and went 14-3.
+
+I can't breathe. I genuinely can't breathe.
 
 ## The Setup
 
-I've learned some things over the years. You can't fight it. You have to MANAGE it.
+I've learned some things over the years about watching big games with four daughters. You can't fight the chaos. You have to MANAGE it.
 
 **Pre-Game Preparation:**
 - Charge every device in the house (ALL of them)
 - Pre-make snacks that don't require supervision
-- Promise post-game ice cream for good behavior
-- Accept that halftime is not yours
+- Promise post-game ice cream REGARDLESS of outcome
+- Accept that Bad Bunny is doing halftime and the girls are excited about it
 
 **The Viewing Strategy:**
-I've negotiated watching rights. I get the game, uninterrupted, for the 4th quarter only. Everything else is a compromise. Halftime? That's for whatever animated movie they're into this week. Commercial breaks? That's when I check on chaos.
+For the first time in my life, I have negotiated FULL viewing rights. My wife understands. The girls understand. Daddy has waited eleven years for this moment. ELEVEN YEARS.
 
-## What I Actually Care About
+I get the game. ALL of it. Every play. Every timeout. Every replay. If anyone talks during a crucial play, there will be consequences.
 
-Look, I'll be honest. After 10 years of marriage and four kids, my relationship with football has changed.
+## The Malcolm Butler Situation
 
-I used to watch for the strategy. For the chess match. For the X's and O's.
+Let's talk about it. February 1, 2015. Super Bowl XLIX. Seahawks down 4 with 26 seconds left. Ball on the 1-yard line. Marshawn Lynch in the backfield. And Pete Carroll calls a PASS.
 
-Now? I watch for the EMOTION. I watch for the moments that make you FEEL something. A game-winning drive. A heartbreaking interception. The look on a player's face when they realize they just won the Super Bowl.
+Malcolm Butler intercepts it. Patriots win. I die inside.
 
-And also, I watch because I have money on it. Obviously.
+I've replayed that moment in my head approximately 4,000 times. Every time I close my eyes, I see Butler jumping the route. Every time someone mentions the Patriots, I feel a twinge of rage.
+
+And now? NOW? We get to do it again. Same teams. Same stakes. Different outcome. It HAS to be a different outcome.
 
 ## My FFPC Situation
 
-I'm not going to lie – my FFPC playoff roster is a mess. I drafted a guy who got hurt. I pivoted to a backup who got benched. Classic Steve luck.
+I'm not going to lie – my FFPC playoff roster is LOADED with Seahawks.
 
-But here's the thing: I've got Kelce. And Kelce in the Super Bowl is like... it's like having a guaranteed baseline of sanity. Whatever else goes wrong, Kelce's going to catch 7 balls for 80 yards and a touchdown.
+**Jaxon Smith-Njigba at 78% ownership.** Yes, I'm chalk. I don't care. JSN is the best receiver in football. He led the league with 1,793 yards. He's going to EAT against this Patriots secondary.
 
-That's all I need. Just give me that floor and let me enjoy my one quarter of uninterrupted football.
+**Kenneth Walker at 52% ownership.** Give him the ball 25 times. Let him run over Drake Maye's face. I don't care about leverage. I care about WINNING.
 
-## The Group Chat
+**Sam Darnold at 22% ownership.** THE REDEMPTION ARC. The narrative. The story. Darnold leading the Seahawks to a championship. At 22% ownership. This is the way.
 
-The Unfiltered Fantasy group chat during the Super Bowl is... a lot.
+I've also got Drake Maye and TreVeyon Henderson because Gabe yelled at me about "roster construction." But if the Patriots beat my Seahawks, I don't care about my FFPC lineup. I'll burn the money.
 
-Brady's going to be posting "evidence" after every flag. Gabe's going to be live-updating his model. Rod's going to be celebrating or panicking based on his prop bets. Jared's going to be citing expert opinions. Curt's going to appear briefly, make some cryptic comment about "having a feeling," and then disappear until the game is over.
+## The Group Chat Predictions
 
-And I'll be here. In my jersey. With my one quarter of peace. Trying not to yell when the Seahawks aren't even playing.
+The Unfiltered Fantasy group chat during the Super Bowl is going to be CHAOS:
 
-## Final Thoughts
+**Brady:** Already preparing screenshots to prove the refs are rigged. If the Seahawks get a single favorable call, he'll say it's "obviously scripted." If we get screwed, he'll say "I told you."
 
-Super Bowl Sunday isn't about football anymore. It's about the people you watch it with. Even if those people are four small humans who keep asking why the players are wearing tights.
+**Gabe:** Live-updating his projection model. Will tell us the "expected win probability" after every single play. I will mute him by halftime.
 
-Enjoy the game, everyone. Hug your families. Try the floor pizza.
+**Rod:** Has 14 different prop bets including "TreVeyon Henderson longest rush OVER 34.5 yards." He's rooting for chaos. He always roots for chaos.
 
-It's still good.`,
-    date: "2025-01-24",
+**Jared:** Will cite "expert consensus" approximately 847 times. "Well, 44 out of 48 experts had JSN over 7.5 receptions, so..."
+
+**Curt:** Will appear once at halftime, say something cryptic like "I had a feeling about the Seahawks," and then disappear until the final score. Will somehow have bet the exact final score.
+
+**Me:** I will be INSUFFERABLE. I will be standing for every play. I will be screaming at the TV. My wife will tell me to calm down. I will not calm down. I have waited ELEVEN YEARS for this moment.
+
+## The Actual Prediction
+
+Fine. You want a prediction?
+
+**Seahawks 27, Patriots 20.**
+
+JSN goes for 11 catches, 142 yards, and 2 TDs. Kenneth Walker runs for 95 yards and a score. The Seahawks defense – the #1 scoring defense in the NFL – holds Drake Maye to under 200 passing yards.
+
+And when the clock hits zero, I am going to cry. Real tears. In front of my four daughters and my wife and probably the neighbors because I will be screaming loud enough for them to hear.
+
+The Malcolm Butler ghosts will finally be exorcised.
+
+The Seahawks will be champions again.
+
+And I will never, ever, EVER stop talking about it.
+
+## To My Daughters
+
+Girls, if you're reading this someday: Daddy loves you. But Daddy also loves the Seattle Seahawks. And on February 8th, 2026, Daddy is going to watch his team try to win the Super Bowl for the first time since before any of you were born.
+
+Please be patient with him. Please let him have this.
+
+And if the Seahawks win, we're getting ice cream AND staying up late. That's the deal.
+
+LET'S GO HAWKS.`,
+    date: "2026-02-02",
     author: "Steve",
     category: "Lifestyle",
     image: "/articles/super-bowl-survival.jpg",
-    readingTime: 8,
-    featured: false,
+    readingTime: 10,
+    featured: true,
   },
 ];
 
