@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, Users } from "lucide-react";
 import { episodes, getEpisodeBySlug } from "@/lib/data";
 import { formatDate, formatDuration } from "@/lib/utils";
-import AudioPlayer from "@/components/podcast/AudioPlayer";
+import PodcastPlayer from "@/components/podcast/PodcastPlayer";
 import PlatformLinks from "@/components/podcast/PlatformLinks";
 import Badge from "@/components/ui/Badge";
 import EpisodeCard from "@/components/podcast/EpisodeCard";
@@ -97,7 +97,11 @@ export default async function EpisodePage({ params }: PageProps) {
 
             {/* Audio Player */}
             <div className="mb-8">
-              <AudioPlayer title={episode.title} duration={episode.duration} />
+              <PodcastPlayer
+                title={episode.title}
+                audioUrl={episode.audioUrl || ""}
+                imageUrl="/images/podcast-cover.jpg"
+              />
             </div>
 
             {/* Description */}
